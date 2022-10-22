@@ -310,7 +310,7 @@ const updateUser = async function (req, res) {
         });
       }
       let url = await uploadFile(file[0]);
-      up["profileImage"] = url;
+      data["profileImage"] = url;
     }
 
     if (fname) {
